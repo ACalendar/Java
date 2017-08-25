@@ -1,7 +1,7 @@
 //Author: ACalendar
 
 /**
-**The following hello world program displays text(also known as a string data type) to the user. 
+**The following HellowWorld class displays text(also known as a string data type) to the user. 
 There is no "one way to code", so I've showed three exmaples of creating the same string.
 */
 public class HelloWorld 
