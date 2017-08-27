@@ -1,17 +1,17 @@
-import java.util.Scanner;
-
 //Author: ACalendar
 
 /**
  * The purpose of this class is to show how different if statements can be used in Java.
   */
 
+import java.util.Scanner;
+
 public class HelloWorldIf 
 {
 	public static void main(String[] args) 
 	{
 		Scanner scan = new Scanner(System.in);
-		 int num10 = 1, num11 = 11, num12 = 12, num13, num14, num15, num16;//Declared an int variables. 
+		 int num10 = 1, num11 = 11, num12 = 12, num13, num14, num15, num16;//Declared int variables. 
 		 String nameA, nameB, nameC, nameD;//Declared 4 string variables.
 	
 		/**
@@ -59,22 +59,22 @@ public class HelloWorldIf
 				+ " 3. Joke about snow."
 				+ " 4. Joke about the water.");
 		num11 = scan.nextInt();
-		if (num11 == 1)
+		if (num11 == 1)//Option for food
 		{
 			System.out.println("What do you call fake spaghetti?"
 					+ " An im-pasta!");
 		}
-		else if (num11 == 2)
+		else if (num11 == 2)//Option for animals
 		{
 			System.out.println("What do you call birds that stick together?"
 					+ " Vel-crows!");
 		}
-		else if (num11 == 3)
+		else if (num11 == 3)//Option for snow
 		{
 			System.out.println("What did one snowman say to the other snowman?"
 					+ " Smells like carrots!");
 		}
-		else if (num11 == 4)
+		else if (num11 == 4)//Option for the water
 		{
 			System.out.println("What did the ocean say to the shore?"
 					+ " Nothing. It just waved!");
@@ -106,13 +106,13 @@ public class HelloWorldIf
 					nameA = scan.next();
 					System.out.println("Hey there " + nameA + "! He's adorable!");
 				 }
-				 else if (num11 == 2)
+				 else if (num11 == 2)//user picked female.
 				 {
 					System.out.println("What's her name?"); 
 					nameB = scan.next();
 					System.out.println("Hey there " + nameB + "! She's adorable!");
 				 }
-				 else
+				 else//User didn't select either option
 				 {
 					 System.out.println("You did not select male or female.");
 				 }
@@ -123,24 +123,24 @@ public class HelloWorldIf
 					+ " 1. Male"
 					+ " 2. Female");
 			num11 = scan.nextInt();
-			if (num11 == 1)//Options for male cat. N
-			 {
+			if (num11 == 1)//Code for male cat. 
+			{
 				System.out.println("What's his name?"); 
 				nameC = scan.next();
 				System.out.println("Hey there " + nameC + "! He's adorable!");
 			 }
-			 else if (num11 == 2)
+			 else if (num11 == 2)//Code for female cat
 			 {
 				System.out.println("What's her name?"); 
 				nameD = scan.next();
 				System.out.println("Hey there " + nameD + "! She's adorable!");
 			 }
-			 else
+			 else//User did not select an option
 			 {
 				 System.out.println("You did not select male or female.");
 			 }
 			}
-		else
+		else//User did not pick an animal
 		{
 			System.out.println("You did not select an animal.");
 		}
